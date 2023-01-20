@@ -11,7 +11,6 @@ namespace PasswordProtectedProgram
             string password = "123";
             int numberAttempts = 3;
 
-
             for (int i = numberAttempts;i>0;i--)
             {
                 Console.WriteLine("Введите пароль чтобы прочитать тайное сообщение");
